@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mastering JavaScript Fundamentals</h1>
+
+  <!-- Part 1: Variables & Conditionals -->
+  <section>
+    <h2>Part 1: Basics</h2>
+    <p id="greeting">Click the button to enter your name</p>
+    <button onclick="askName()">Enter Name</button>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Part 2: Functions</h2>
+    <p>Total Price Calculator</p>
+    <input type="number" id="price" placeholder="Enter price">
+    <input type="number" id="quantity" placeholder="Enter quantity">
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <p id="totalResult"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Part 3: Loops</h2>
+    <button onclick="showNumbers()">Show Numbers 1–10</button>
+    <ul id="numberList"></ul>
+
+    <button onclick="countdown()">Start Countdown</button>
+    <p id="countdownResult"></p>
+  </section>
+
+  <!-- Part 4: DOM Manipulation -->
+  <section>
+    <h2>Part 4: DOM Manipulation</h2>
+    <button onclick="changeText()">Change Text</button>
+    <p id="changeMe">This text will change when button is clicked.</p>
+
+    <button onclick="toggleColor()">Toggle Highlight</button>
+    <p id="highlight">Click the button to toggle highlight color!</p>
+
+    <button onclick="addNewItem()">Add List Item</button>
+    <ul id="dynamicList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
